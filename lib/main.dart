@@ -39,29 +39,40 @@ class _MyHomePageState extends State<MyHomePage> {
   dynamic _control;
   //int guess = int.tryParse(_control);
   void ctok() {
-    int y;
-    y = ((_control)+(273.15));
+    //int y;
+    //y = ((_control)+(273.15));
     an = '_celsius = _kelvin';
     setState(() {
     });
-    an = 'hoho';
   }
   void ftoc() {
-    int y;
-    y = (_control-32)*(5/9) as int;
+   //int y;
+    //y = (_control-32)*(5/9) as int;
+    an = '_fahrenheit = _celsius';
+    setState(() {
+
+    });
   }
   void ftok(){
-    int y;
-    y =(_control+459.67)*(5/9) as int;
+    //int y;
+    //y =(_control+459.67)*(5/9) as int;
+    an = '_fahrenheit = _kelvin';
+    setState(() {
+
+    });
   }
   void ktoc(){
-    int y;
-    y =_control-273.15 as int;
+    //int y;
+    //y =_control-273.15 as int;
+    an = '_kelvin = _celsius';
+    setState(() {
+
+    });
   }
   void ktof(){
     //int y;
     //y = (_control*(9/5))-459.67 as int;
-    an = 'hello';
+    an = '_kelvin = _fahrenheit';
     print (an);
     setState(() {
 
